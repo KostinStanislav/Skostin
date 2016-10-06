@@ -1,0 +1,25 @@
+body,html{
+    height: 100%;
+}
+
+.mainBlock{
+    width:calc(100% - 2px);
+   height:calc(100% - 2px);
+    border:1px solid black;
+    display: flex;
+    justify-content:center;
+
+    flex-flow:column wrap;
+    align-items:stretch;
+    
+}
+.secondary{
+    margin: 20px;
+    border:1px solid black;
+   width:20%;
+   height:30%;
+   
+}
+#plane{
+    width:100%;
+}
