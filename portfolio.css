@@ -1,25 +1,42 @@
 body,html{
     height: 100%;
+    
 }
 
 .mainBlock{
-    width:calc(100% - 2px);
-   height:calc(100% - 2px);
     border:1px solid black;
     display: flex;
-    justify-content:center;
-
-    flex-flow:column wrap;
-    align-items:stretch;
-    
+background-image: url('port.jpg');
+background-size: cover;
+    flex-flow:row wrap;
 }
 .secondary{
+    padding: 10px;
     margin: 20px;
     border:1px solid black;
-   width:20%;
-   height:30%;
+   width:25%;
+   text-align: center;
+   align-self:center;
+    flex:1 1 300px;
    
 }
 #plane{
     width:100%;
+}
+p{
+    font-size: 20px;
+}
+nav{
+   left:35px;
+    position: fixed;
+    width: 100%;
+}
+nav a{text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 5px;
+    background:#ff9933; 
+}
+nav a:hover{
+    background:white;
 }
